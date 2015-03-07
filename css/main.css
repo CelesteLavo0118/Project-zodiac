@@ -11,11 +11,27 @@ html{
 header{
   background-color: #e7001d;
   margin:auto;
-  padding:1.5rem;
+  padding:1rem;
+}
+
+.chinese{
+  text-align:center;
+  color:white;
+  position:relative;
+}
+
+.head{
+  position:absolute;
+  bottom:1.5em;
+  width:100%;
 }
 
 img{
   width:100%;
+}
+
+#medallion{
+  width:100px;
 }
 
 nav a{
@@ -24,6 +40,7 @@ nav a{
   text-decoration: none;
   color:white;
   border:0.1rem solid #111111;
+  padding:0.5rem;
 }
 
 nav ol{
@@ -45,7 +62,6 @@ h2{
   text-align:center;
   margin:auto;
   font-style:italic;
-
 }
 
 h3{
@@ -60,12 +76,6 @@ p{
 .animals{
   text-align:center;
   font-style:italic;
-}
-
-.chinese{
-  text-align:center;
-  color:white;
-  position:relative;
 }
 
 #banner{
