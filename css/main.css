@@ -1,0 +1,113 @@
+html{
+  box-sizing:boder-box;
+  margin:0 auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after{
+  box-sizing:inherit;
+}
+
+header{
+  background-color: #e7001d;
+  margin:auto;
+  padding:1.5rem;
+}
+
+img{
+  width:100%;
+}
+
+nav a{
+  display:block;
+  background-color:#222222;
+  text-decoration: none;
+  color:white;
+  border:0.1rem solid #111111;
+}
+
+nav ol{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  text-align:center;
+  margin:auto;
+}
+
+h2{
+  color:white;
+  position:absolute;
+  bottom:1em;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  font-style:italic;
+
+}
+
+h3{
+  margin:auto;
+  text-align:center;
+}
+
+p{
+  margin:auto;
+}
+
+.animals{
+  text-align:center;
+  font-style:italic;
+}
+
+.chinese{
+  text-align:center;
+  color:white;
+  position:relative;
+}
+
+#banner{
+  position:relative;
+  overflow:hidden;
+}
+
+#zodiac{
+  background-color:white;
+  padding:1.5rem;
+}
+
+#dragon{
+  background-color:#e4c22a;
+  margin:auto;
+  padding:1.5rem;
+}
+
+#goat{
+  color:white;
+  background-color:#222222;
+  margin:auto;
+  padding:1.5rem;
+}
+
+#rooster{
+  color:white;
+  background-color:#bc0017;
+  margin:auto;
+  padding:1.5rem;
+}
+
+#ox{
+  background-color:#e4c22a;
+  margin:auto;
+  padding:1.5rem;
+}
+
+footer{
+  text-align:center;
+  color:white;
+  background-color:#222222;
+  margin:auto;
+  padding:1.5rem;
+}
