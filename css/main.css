@@ -30,6 +30,20 @@ img{
   width:100%;
 }
 
+.images{
+  padding:1rem;
+}
+
+.inset-left{
+  width:50%;
+  float:left;
+}
+
+.inset-right{
+  width:50%;
+  float:right;
+}
+
 #medallion{
   width:100px;
 }
@@ -41,6 +55,7 @@ nav a{
   color:white;
   border:0.1rem solid #111111;
   padding:0.5rem;
+
 }
 
 nav ol{
@@ -112,6 +127,10 @@ p{
   background-color:#e4c22a;
   margin:auto;
   padding:1.5rem;
+}
+
+#bottom{
+  color:white;
 }
 
 footer{
